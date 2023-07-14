@@ -20,14 +20,14 @@ const Home = () => {
       </div>
 
       <div className="py-[5rem]">
-        <h2 className="xl:text-7xl lg:text-6xl text-[30px] text-center text-white font-normal  lg:leading-[90px] leading-[40px] tracking-wide">
+        <h1 className="xl:text-7xl lg:text-6xl text-[30px]    text-white font-normal  lg:leading-[90px] leading-[40px] ">
           Say Hi from <span className="text-green-400"> Thomson</span>, Frontend
           Designer and Developer
-        </h2>
+        </h1>
       </div>
 
       <div className="py-[2rem]">
-        <p className="lg:text-lg text-[18px] xl:max-w-[40rem] lg:max-w-[36rem] max-w-[28rem] leading-7 tracking-wider text-[#cecccc] ">
+        <p className="lg:text-lg text-[18px] xl:max-w-[40rem] lg:max-w-[36rem] max-w-[33rem] leading-7 tracking-wider text-[#cecccc] ">
           I design and code beautifully simple things and i love what i do. Just
           simple like that!
         </p>
@@ -42,7 +42,7 @@ const Home = () => {
 
         <div className="">
           <h1 className="text-green-400 text-5xl lg:text-7xl">182+</h1>
-          <p className="text-[16px] pt-7 text-[#cecccc] max-w-[170px]">PROJECTS COMPLETED ON 15 COUNTRIES</p>
+          <p className="text-[16px] pt-7 text-[#cecccc] max-w-[180px]">PROJECTS COMPLETED ON 15 COUNTRIES</p>
         </div>
       </div>
     </div>
