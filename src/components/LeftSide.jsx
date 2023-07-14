@@ -51,7 +51,7 @@ const LeftSide = () => {
         </div>
 
         <button
-          className="py-4 w-[90%] xl:ml-4 ml-7 rounded-full xl:mt-6 mt-10 font-medium
+          className="py-4 w-[90%] xl:ml-4 ml-4 rounded-full xl:mt-6 mt-10 font-medium
          text-slate-900 text-[18px] bg-green-400"
         >
           <div className="flex justify-center space-x-11 items-center ">

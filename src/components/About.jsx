@@ -2,14 +2,14 @@ import { AiOutlineUser } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="py-5  lg:px-20 xl:px-0 pl-3">
+    <div className="py-5  lg:px-20 xl:px-0 px-4">
       <div className="flex items-center border w-[120px] justify-center rounded-full h-[35px]">
         <AiOutlineUser className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">About</h2>
       </div>
 
       <div className="py-[5rem]">
-        <h1 className="  text-[40px] xl:text-[58px] font-light max-w-[800px] lg:leading-[65px] leading-[55px] text-[#cecccc]  ">
+        <h1 className="  text-[30px] xl:text-[58px] font-light max-w-[800px] lg:leading-[65px] leading-[40px] text-[#cecccc]  ">
           Every great design begin with an even{" "}
           <span className="text-green-500"> better story</span>{" "}
         </h1>
