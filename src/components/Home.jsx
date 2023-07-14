@@ -20,7 +20,7 @@ const Home = () => {
       </div>
 
       <div className="py-[5rem]">
-        <h2 className="xl:text-7xl lg:text-6xl text-[30px] text-white font-normal  lg:leading-[90px] leading-[40px] tracking-wide">
+        <h2 className="xl:text-7xl lg:text-6xl text-[30px] text-center text-white font-normal  lg:leading-[90px] leading-[40px] tracking-wide">
           Say Hi from <span className="text-green-400"> Thomson</span>, Frontend
           Designer and Developer
         </h2>
