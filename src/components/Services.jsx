@@ -48,15 +48,14 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="py-10 border border-[#cecccc] hover:border-green-500 hover:border-2 text-white lg:px-9 px-5 max-w-[700px] rounded-xl">
+        <div className="py-10 border border-[#cecccc] hover:border-green-500 hover:border-2 text-white lg:px-9 px-5 xl:max-w-[700px] lg:max-w-[1000px rounded-xl">
           <div className="flex  justify-between">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Front-end Development</h1>
               <p className="lg:max-w-[500px] leading-7 mt-2 text-[#cecccc]   text-[16px]">
                 Strong understanding of HTML5, CSS3, and JavaScript, enabling
                 the creation of visually appealing and interactive user
-                interfaces. Feel free to adjust or expand upon these points
-                based on your speci
+                interfaces. 
               </p>
             </div>
 
