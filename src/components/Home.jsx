@@ -1,13 +1,14 @@
 import { AiOutlineHome } from "react-icons/ai";
 import { TbMenu } from "react-icons/tb";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <motion.div className="py-[5rem]  xl:px-7 lg:px-36 px-4" 
-    initial={{ y: 450}}
-    animate={{ y: -10 }}
-    transition={{ delay: 0.3, type: 'spring',  }}
+    <motion.div
+      className="py-[5rem]  xl:px-14 lg:px-36  px-4"
+      initial={{ y: 450 }}
+      animate={{ y: -10 }}
+      transition={{ delay: 0.3, type: "spring" }}
     >
       <div className="flex justify-between ">
         <div className="w-[150px] h-[40px] text-[#cecccc] rounded-full  flex justify-center items-center border">
@@ -33,22 +34,23 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="py-[7rem] flex justify-between">
-      <div className="flex justify-between w-[550px] ">
-        <div className="">
-          <h1 className="text-green-400 text-5xl lg:text-7xl">10+</h1>
-          <p className="text-[16px] pt-7 text-[#cecccc]  max-w-[150px]">YEARS OF EXPERIENCE</p>
-        </div>
+      <div className="py-[7rem] flex justify-start">
+        <div className="flex justify-between w-[550px] ">
+          <div className="">
+            <h1 className="text-green-400 text-3xl lg:text-6xl">10+</h1>
+            <p className="text-[14px] pt-7 text-[#cecccc]  max-w-[130px]">
+              YEARS OF EXPERIENCE
+            </p>
+          </div>
 
-        <div className="">
-          <h1 className="text-green-400 text-5xl lg:text-7xl">182+</h1>
-          <p className="text-[16px] pt-7 text-[#cecccc] max-w-[180px]">PROJECTS COMPLETED ON 15 COUNTRIES</p>
+          <div className="">
+            <h1 className="text-green-400 text-3xl lg:text-6xl">182+</h1>
+            <p className="text-[14px] pt-7 text-[#cecccc] max-w-[150px]">
+              PROJECTS COMPLETED ON 15 COUNTRIES
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-
-
-     
     </motion.div>
   );
 };
