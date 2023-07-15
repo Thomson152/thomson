@@ -1,6 +1,6 @@
 import About from "./About";
 import Home from "./Home";
-import Services from "./services";
+import Services from "./Services";
 // import Resume from "./Resume";
 
 const RightSide = () => {
