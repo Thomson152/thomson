@@ -1,6 +1,8 @@
 import About from "./About";
 import Home from "./Home";
+import Portfolio from "./Portfolio";
 import Services from "./Services";
+import Skills from "./Skills";
 // import Resume from "./Resume";
 
 const RightSide = () => {
@@ -10,6 +12,8 @@ const RightSide = () => {
       <About />
       {/* <Resume/> */}
       <Services/>
+      <Skills/>
+      <Portfolio/>
     </div>
   );
 };

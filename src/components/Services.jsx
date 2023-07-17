@@ -3,8 +3,8 @@ import { BiLogoReact, BiLogoTailwindCss } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <div className=" py-10 xl:px-14 lg:px-36  px-4 mt-16">
-      <div className="flex items-center border w-[120px] border-[#cecccc] hover:border-2 text-[#cecccc] justify-center rounded-full h-[35px]">
+    <div className=" py-10 xl:px-14 lg:px-36  px-5 mt-16">
+      <div className="flex items-center border w-[120px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
         <MdMiscellaneousServices className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">Services</h2>
       </div>
@@ -16,11 +16,13 @@ const Services = () => {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-3 xl:grid-cols-1">
-        <div className="py-10 border text-white border-[#cecccc] hover:border-green-500 hover:border-2 lg:px-9 px-5 xl:max-w-[700px] max-w-[1000px] rounded-xl">
+        <div className="py-10 border text-white border-[#646363]  hover:border-green-500 
+         xl:px-9 lg:px-3 px-5 xl:max-w-[750px] max-w-[1000px] rounded-xl">
+          
           <div className="flex justify-between">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Tailwind CSS</h1>
-              <p className="lg:max-w-[450px] leading-7 mt-2 text-[#cecccc]   text-[16px]">
+              <p className="xl:max-w-[450px] leading-7 mt-2 text-[#cecccc]   text-[16px]">
                 Proficient in utilizing Tailwind CSS to create custom,
                 responsive designs and styling components efficiently
               </p>
@@ -32,7 +34,9 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="py-10 border border-[#cecccc] text-white lg:px-9 px-5 xl:max-w-[700px] hover:border-green-500 hover:border-2 lg:max-w-[1000px] rounded-xl">
+        <div className="py-10 border border-[#646363]  text-white lg:px-9 px-5 
+        xl:max-w-[750px] hover:border-green-500 
+         lg:max-w-[1000px] rounded-xl">
           <div className="flex justify-between">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl">React Js</h1>
@@ -48,7 +52,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="py-10 border border-[#cecccc] hover:border-green-500 hover:border-2 text-white lg:px-9 px-5 xl:max-w-[700px] lg:max-w-[1000px rounded-xl">
+        <div className="py-10 border border-[#646363]  hover:border-green-500  text-white lg:px-9 px-5 xl:max-w-[750px] lg:max-w-[1000px rounded-xl">
           <div className="flex  justify-between">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Front-end Development</h1>

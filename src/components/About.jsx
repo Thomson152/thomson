@@ -2,8 +2,8 @@ import { AiOutlineUser } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="py-5  lg:px-36 xl:px-14 px-4">
-      <div className="flex items-center border w-[120px] justify-center rounded-full h-[35px]">
+    <div className="py-5  lg:px-36 xl:px-14 px-5">
+      <div className="flex items-center border-[#646363]  border w-[120px] justify-center rounded-full h-[35px]">
         <AiOutlineUser className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">About</h2>
       </div>
@@ -14,13 +14,15 @@ const About = () => {
           <span className="text-green-500"> better story</span>{" "}
         </h1>
 
-        <p className="text-[18px]  max-w-[700px] text-[#cecccc]   text-lg mt-7 leading-8">
-          Since beginning my journey as a freelance designer nearly 8 years ago,
-          I have done remote work for agencies, consulted for startups, and
-          collaborated with talented people to create digital products for both
-          business and consumer use. I am quietly confident, naturally curious,
-          and perpetually working on improving my chopsone design problem at a
-          time
+        <p className="text-[18px]  lg:max-w-3xl text-[#cecccc] text-left   text-lg mt-7 leading-8">
+          Since embarking on my freelance design journey almost 8 years ago, I
+          have had the privilege of working remotely for various agencies,
+          providing consultation services for startups, and collaborating with
+          exceptionally talented individuals to craft digital products that
+          cater to both business and consumer needs. With a quiet confidence and
+          insatiable curiosity, I continuously strive to enhance my skills,
+          tackling design challenges one at a time, always pushing myself to
+          deliver exceptional results.
         </p>
       </div>
     </div>
