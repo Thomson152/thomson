@@ -60,7 +60,7 @@ const Portfolio = () => {
       </div>
       <div >
         <div className="">
-            <img src={img1} className="max-w-[800px] grayscale-0 h-[420px] rounded-2xl"/>
+            <img src={img1} className="max-w-full grayscale-0 h-[420px] rounded-2xl"/>
         </div>
     
       </div>

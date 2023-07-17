@@ -17,7 +17,7 @@ const Skills = () => {
 
       <div className="  grid lg:grid-cols-4 grid-cols-2 ">
         <div className="justify-center items-center flex flex-col">
-          <div className="flex flex-col border hover:border-2 hover:border-green-500 w-[160px]  rounded-full  h-[220px] justify-center items-center">
+          <div className="flex flex-col border hover:border-2 hover:border-green-500 lg:w-[160px] w-[140px]  rounded-full  h-[220px] justify-center items-center">
             <BiLogoReact className="text-[5rem] text-white" />
             <h1 className="text-3xl mt-5 text-green-500">70%</h1>
           </div>
@@ -28,9 +28,9 @@ const Skills = () => {
      
 
         <div className="justify-center  items-center flex flex-col">
-          <div className="flex flex-col border hover:border-2 hover:border-green-500 w-[160px] rounded-full  h-[220px] justify-center items-center">
+          <div className="flex flex-col border hover:border-2 hover:border-green-500 lg:w-[160px] w-[140px] rounded-full  h-[220px] justify-center items-center">
             <BiLogoTailwindCss className="text-[5rem] text-white" />
-            <h1 className="text-3xl mt-5 text-green-500">70%</h1>
+            <h1 className="text-3xl mt-5 text-green-500">80%</h1>
           </div>
 
           <p className="mt-3 text-white text-[18px] font-semibold">Tailwind CSS</p>
@@ -38,7 +38,7 @@ const Skills = () => {
 
 
         <div className="justify-center  items-center flex mt-8 lg:mt-0 flex-col">
-          <div className="flex flex-col border hover:border-2 hover:border-green-500 w-[160px] rounded-full  h-[220px] justify-center items-center">
+          <div className="flex flex-col border hover:border-2 hover:border-green-500 lg:w-[160px] w-[140px]  rounded-full  h-[220px] justify-center items-center">
             <BiLogoMongodb className="text-[5rem] text-white" />
             <h1 className="text-3xl mt-5 text-green-500">70%</h1>
           </div>
@@ -47,9 +47,9 @@ const Skills = () => {
         </div>
 
         <div className="justify-center   items-center flex mt-8 lg:mt-0 flex-col">
-          <div className="flex flex-col border hover:border-2 hover:border-green-500 w-[160px] rounded-full  h-[220px] justify-center items-center">
+          <div className="flex flex-col border hover:border-2 hover:border-green-500 lg:w-[160px] w-[140px] rounded-full  h-[220px] justify-center items-center">
             <BiLogoNodejs className="text-[5rem] text-white" />
-            <h1 className="text-3xl mt-5 text-green-500">70%</h1>
+            <h1 className="text-3xl mt-5 text-green-500">60%</h1>
           </div>
 
           <p className="mt-3 text-white text-[18px] font-semibold">Node Js</p>

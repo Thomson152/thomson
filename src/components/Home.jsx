@@ -21,7 +21,7 @@ const Home = () => {
       </div>
 
       <div className="py-[5rem]">
-        <h1 className="xl:text-7xl lg:text-6xl text-[30px]      text-white font-normal  lg:leading-[90px] leading-[40px] ">
+        <h1 className="xl:text-7xl lg:text-6xl text-[35px]      text-white font-normal  lg:leading-[90px] leading-[40px] ">
           Say Hi from <span className="text-green-400"> Thomson</span>, Frontend
           Designer and Developer
         </h1>
