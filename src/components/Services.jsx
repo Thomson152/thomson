@@ -19,10 +19,10 @@ const Services = () => {
         <div className="py-10 border text-white border-[#646363]  hover:border-green-500 
          xl:px-9 lg:px-3 px-5 xl:max-w-[750px] max-w-[1000px] rounded-xl">
           
-          <div className="flex justify-between">
+          <div className="flex lg:justify-between lg:flex-row flex-col-reverse ">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Tailwind CSS</h1>
-              <p className="xl:max-w-[450px] leading-7 mt-2 text-[#cecccc]   text-[16px]">
+              <p className="xl:max-w-[450px] leading-7 mt-2 text-[#cecccc]   text-[17px]">
                 Proficient in utilizing Tailwind CSS to create custom,
                 responsive designs and styling components efficiently
               </p>
@@ -37,10 +37,10 @@ const Services = () => {
         <div className="py-10 border border-[#646363]  text-white lg:px-9 px-5 
         xl:max-w-[750px] hover:border-green-500 
          lg:max-w-[1000px] rounded-xl">
-          <div className="flex justify-between">
+          <div className="flex lg:justify-between lg:flex-row  flex-col-reverse ">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl">React Js</h1>
-              <p className="lg:max-w-[450px] mt-2 leading-7 text-[#cecccc]   text-[16px]">
+              <p className="lg:max-w-[450px] mt-2 leading-7 text-[#cecccc]   text-[17px]">
                 Expertise in developing dynamic web applications using React and
                 its ecosystem (React Router, Redux, etc.).
               </p>
@@ -53,10 +53,10 @@ const Services = () => {
         </div>
 
         <div className="py-10 border border-[#646363]  hover:border-green-500  text-white lg:px-9 px-5 xl:max-w-[750px] lg:max-w-[1000px rounded-xl">
-          <div className="flex  justify-between">
+          <div className="flex  lg:justify-between lg:flex-row  flex-col-reverse ">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Front-end Development</h1>
-              <p className="lg:max-w-[500px] leading-7 mt-2 text-[#cecccc]   text-[16px]">
+              <p className="lg:max-w-[500px] leading-7 mt-2 text-[#cecccc]   text-[17px]">
                 Strong understanding of HTML5, CSS3, and JavaScript, enabling
                 the creation of visually appealing and interactive user
                 interfaces. 

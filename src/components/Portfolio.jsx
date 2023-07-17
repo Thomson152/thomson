@@ -1,5 +1,5 @@
 import { GoProjectSymlink } from "react-icons/go";
-import img1 from "../assets/portfolio1.png";
+// import img1 from "../assets/portfolio1.png";
 // import img2 from "../assets/portfolio2.jpg";
 // import img3 from "../assets/portfolio3.jpg";
 // import img4 from "../assets/portfolio4.jpg";
@@ -59,8 +59,8 @@ const Portfolio = () => {
         </h1>
       </div>
       <div >
-        <div className="">
-            <img src={img1} className="max-w-full grayscale-0 h-[420px] rounded-2xl"/>
+        <div className="mt-10">
+            {/* <img src={img1} className="grayscale-0 h-[420px] rounded-2xl"/> */}
         </div>
     
       </div>
