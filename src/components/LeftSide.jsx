@@ -10,7 +10,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 const LeftSide = () => {
   return (
     <div className="xl:fixed block bg-[#0f0f0f]  xl:max-w-[30%]  top-0 left-0 text-[#e9e7e7] lg:px-36 xl:px-5">
-      <div className="border border-[#646363]  h-fit px-7 py-5 rounded-lg">
+      <div className="border border-[#646363]  h-fit pb-16 px-7 py-5 rounded-lg">
         <div className="flex  justify-between items-center ">
           <h1 className="xl:text-[30px] text-[28px] font-sans font-bold">Thomson</h1>
           <h3 className="text-[20px] font-semibold">

@@ -1,10 +1,9 @@
 import { GoProjectSymlink } from "react-icons/go";
-// import img1 from "../assets/portfolio1.png";
-// import img2 from "../assets/portfolio2.jpg";
-// import img3 from "../assets/portfolio3.jpg";
+import img1 from "../assets/proshop.png";
+import img2 from "../assets/pavypay.png";
+import img3 from "../assets/primbase.png";
 // import img4 from "../assets/portfolio4.jpg";
 // import img5 from "../assets/portfolio5.png";
-
 
 // const data = [
 //   {
@@ -58,11 +57,78 @@ const Portfolio = () => {
           <span className="text-green-500"> Projects</span>{" "}
         </h1>
       </div>
-      <div >
-        <div className="mt-10">
-            {/* <img src={img1} className="grayscale-0 h-[420px] rounded-2xl"/> */}
+      <div>
+        <div className="mt-10 relative cursor-pointer">
+          <img
+            src={img1}
+            className="grayscale-0 h-[420px] w-full rounded-2xl"
+          />
+
+          <div className="absolute flex space-x-2 top-[22rem] left-3 ">
+            <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
+              <h2 className="text-black ">React Js</h2>
+            </div>
+
+            <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
+              <h2 className="text-black ">MongoDB</h2>
+            </div>
+
+            <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
+              <h2 className="text-black ">Express</h2>
+            </div>
+
+            <div className="bg-slate-100 w-[100px] h-[40px] lg:flex hidden justify-center items-center rounded-full">
+              <h2 className="text-black ">Tailwind CSS</h2>
+            </div>
+          </div>
+
+          <div className="text-white mt-5 text-2xl ">
+            <a href="" className="hover:border-b-2">
+              CozaStore Website
+            </a>
+          </div>
         </div>
-    
+
+        <div className="flex lg:flex-row space-y-16 lg:space-y-0 flex-col lg:space-x-4 mt-[5rem]">
+          <div className="relative">
+            <img src={img2} alt="" className="h-[420px] rounded-2xl" />
+            <div className="absolute flex space-x-2 top-[22rem] left-3 ">
+              <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
+                <h2 className="text-black ">React Js</h2>
+              </div>
+
+              <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
+                <h2 className="text-black ">Tailwind CSS</h2>
+              </div>
+            </div>
+
+            <div className="text-white mt-5 text-2xl ">
+              <a href="" className="hover:border-b-2">
+                Pavypay LandingPage
+              </a>
+            </div>
+          </div>
+
+          <div className="relative ">
+            <img src={img3} alt="" className="h-[420px] rounded-2xl " />
+
+            <div className="absolute flex space-x-2 top-[22rem] left-3 ">
+              <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
+                <h2 className="text-black ">React Js</h2>
+              </div>
+
+              <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
+                <h2 className="text-black ">Tailwind CSS</h2>
+              </div>
+            </div>
+
+            <div className="text-white mt-5 text-2xl ">
+              <a href="" className="hover:border-b-2">
+                PrimeBase
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
