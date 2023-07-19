@@ -58,13 +58,13 @@ const Portfolio = () => {
         </h1>
       </div>
       <div>
-        <div className="mt-10 relative cursor-pointer">
+        <div className="mt-10 relative  cursor-pointer">
           <img
             src={img1}
-            className="grayscale-0 h-[420px] w-full rounded-2xl"
+            className="grayscale-0 lg:aspect-[12/6] aspect-[12/8] rounded "
           />
 
-          <div className="absolute flex space-x-2 top-[22rem] left-3 ">
+          {/* <div className="absolute flex space-x-2 top-[22rem] left-3 ">
             <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
               <h2 className="text-black ">React Js</h2>
             </div>
@@ -80,19 +80,19 @@ const Portfolio = () => {
             <div className="bg-slate-100 w-[100px] h-[40px] lg:flex hidden justify-center items-center rounded-full">
               <h2 className="text-black ">Tailwind CSS</h2>
             </div>
-          </div>
+          </div> */}
 
-          <div className="text-white mt-5 text-2xl ">
+          <div className="text-white mt-5 lg:text-2xl text-[18px] ">
             <a href="" className="hover:border-b-2">
               CozaStore Website
             </a>
           </div>
         </div>
 
-        <div className="flex lg:flex-row space-y-16 lg:space-y-0 flex-col lg:space-x-4 mt-[5rem]">
+        <div className="flex lg:flex-row space-y-16 lg:space-y-0 flex-col lg:space-x-4 mt-[3rem]">
           <div className="relative">
-            <img src={img2} alt="" className="h-[420px] rounded-2xl" />
-            <div className="absolute flex space-x-2 top-[22rem] left-3 ">
+            <img src={img2} alt="" className="aspect-[12/9] rounded " />
+            {/* <div className="absolute flex space-x-2 top-[22rem] left-3 ">
               <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
                 <h2 className="text-black ">React Js</h2>
               </div>
@@ -100,9 +100,10 @@ const Portfolio = () => {
               <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
                 <h2 className="text-black ">Tailwind CSS</h2>
               </div>
-            </div>
+            </div> */}
 
-            <div className="text-white mt-5 text-2xl ">
+            <div className="text-white mt-5 
+            lg:text-2xl text-[18px] ">
               <a href="" className="hover:border-b-2">
                 Pavypay LandingPage
               </a>
@@ -110,9 +111,9 @@ const Portfolio = () => {
           </div>
 
           <div className="relative ">
-            <img src={img3} alt="" className="h-[420px] rounded-2xl " />
+            <img src={img3} alt="" className=" aspect-[12/9] rounded " />
 
-            <div className="absolute flex space-x-2 top-[22rem] left-3 ">
+            {/* <div className="absolute flex space-x-2 top-[15rem] left-3 ">
               <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
                 <h2 className="text-black ">React Js</h2>
               </div>
@@ -120,9 +121,9 @@ const Portfolio = () => {
               <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
                 <h2 className="text-black ">Tailwind CSS</h2>
               </div>
-            </div>
+            </div> */}
 
-            <div className="text-white mt-5 text-2xl ">
+            <div className="text-white mt-5 lg:text-2xl text-[18px] ">
               <a href="" className="hover:border-b-2">
                 PrimeBase
               </a>

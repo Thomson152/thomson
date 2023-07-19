@@ -3,7 +3,7 @@ import { BiLogoReact, BiLogoTailwindCss } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <div className=" py-10 xl:px-14 lg:px-36  px-5 mt-16">
+    <div className=" py-10 xl:px-14 lg:px-20  px-5 mt-16">
       <div className="flex items-center border w-[120px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
         <MdMiscellaneousServices className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">Services</h2>
@@ -17,7 +17,7 @@ const Services = () => {
 
       <div className="grid gap-4 lg:grid-cols-3 xl:grid-cols-1">
         <div className="py-10 border text-white border-[#646363]  hover:border-green-500 
-         xl:px-9 lg:px-3 px-5 xl:max-w-[750px] max-w-[1000px] rounded-xl">
+         xl:px-9 lg:px-3 px-5 xl:max-w-[750px] rounded-xl">
           
           <div className="flex lg:justify-between lg:flex-row flex-col-reverse ">
             <div className="mt-6">
