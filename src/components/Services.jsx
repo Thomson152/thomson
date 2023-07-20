@@ -22,7 +22,7 @@ const Services = () => {
           <div className="flex lg:justify-between xl:flex-row flex-col-reverse ">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Tailwind CSS</h1>
-              <p className="xl:max-w-[470px] leading-7 mt-2 text-[#cecccc]   text-[17px]">
+              <p className="xl:max-w-[470px] leading-8 mt-2 text-[#cecccc]   text-[18px]">
                 Proficient in utilizing Tailwind CSS to create custom,
                 responsive designs and styling components efficiently
               </p>
@@ -40,7 +40,7 @@ const Services = () => {
           <div className="flex lg:justify-between xl:flex-row  flex-col-reverse ">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl">React Js</h1>
-              <p className="lg:max-w-[470px] mt-2 leading-7 text-[#cecccc]   text-[17px]">
+              <p className="lg:max-w-[470px] mt-2 leading-8 text-[#cecccc]   text-[18px]">
                 Expertise in developing dynamic web applications using React and
                 its ecosystem (React Router, Redux, etc.).
               </p>
@@ -56,7 +56,7 @@ const Services = () => {
           <div className="flex  lg:justify-between xl:flex-row  flex-col-reverse ">
             <div className="mt-6">
               <h1 className="lg:text-2xl  text-xl ">Front-end Development</h1>
-              <p className="lg:max-w-[530px] leading-7 mt-2 text-[#cecccc]   text-[17px]">
+              <p className="lg:max-w-[580px] leading-8 mt-2 text-[#cecccc]   text-[18px]">
                 Strong understanding of HTML5, CSS3, and JavaScript, enabling
                 the creation of visually appealing and interactive user
                 interfaces. 
