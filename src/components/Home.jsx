@@ -6,14 +6,12 @@ const Home = () => {
   return (
     <motion.div
       className="py-[5rem]  xl:px-14 lg:px-36  px-5"
-      initial={{ y: 450 }}
-      animate={{ y: -10 }}
-      transition={{ delay: 0.3, type: "spring" }}
+      
     >
       <div className="flex justify-between ">
         <div className="w-[150px] h-[40px] text-[#cecccc] rounded-full border-[#646363]  flex justify-center items-center border">
           <AiOutlineHome />
-          <h6 className="text-[16px] ml-2">INTRODUCE</h6>
+          <h6 className="text-[18px] ml-2">Introduce</h6>
         </div>
         <div className="text-[#cecccc] border w-[50px] hidden  rounded-full xl:flex justify-center items-center h-[50px]">
           <TbMenu className="text-3xl" />

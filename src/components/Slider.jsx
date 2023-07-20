@@ -29,8 +29,8 @@ const Slider = () => {
         modules={[Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={50}
         effect={"fade"}
-        speed={1000}
-        autoplay={{ delay: 2000 }}
+        speed={1500}
+        autoplay={{ delay: 3000 }}
       >
         <SwiperSlide>
           <div className="border border-[#646363] cursor-grab lg:px-10  px-5 py-[3rem] rounded-2xl max-w-[45rem]">
@@ -40,7 +40,7 @@ const Slider = () => {
                 CEO of <span className="text-green-500">IBM Global </span>{" "}
               </p>
             </div>
-            <p className="text-white mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
+            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
               "Thomson - A Developer with a creativity, professional and a
               master of code. Much more than i expect. High quality product &
               flexible price. Recommended!"
@@ -56,7 +56,7 @@ const Slider = () => {
                 CEO of <span className="text-green-500">IBM Global </span>{" "}
               </p>
             </div>
-            <p className="text-white mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
+            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
               "Thomson - A Developer with a creativity, professional and a
               master of code. Much more than i expect. High quality product &
               flexible price. Recommended!"
@@ -73,7 +73,7 @@ const Slider = () => {
               </p>
             </div>
 
-            <p className="text-white mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
+            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
               "Thomson - A Developer with a creativity, professional and a
               master of code. Much more than i expect. High quality product &
               flexible price. Recommended!"

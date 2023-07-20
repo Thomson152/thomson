@@ -5,7 +5,7 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 
-import { FaRegEnvelope } from "react-icons/fa";
+import { BsWhatsapp} from "react-icons/bs";
 
 const LeftSide = () => {
   return (
@@ -54,10 +54,10 @@ const LeftSide = () => {
           className="py-3 w-[90%] xl:ml-4 ml-4 rounded-full xl:mt-4 mt-7 font-medium
          text-slate-900 text-[18px] bg-green-400 hover:bg-black hover:text-green-500 hover:border hover:border-green-500"
         >
-          <div className="flex justify-center space-x-11 items-center ">
-            <FaRegEnvelope className="mr-3 text-xl" />
+          <a  href="https://wa.me/+2349159163256" rel="noopener noreferrer" target="_blank" className="flex justify-center space-x-11 items-center ">
+            <BsWhatsapp className="mr-3 text-xl" />
             HIRE ME!
-          </div>
+          </a>
         </button>
       </div>
     </div>

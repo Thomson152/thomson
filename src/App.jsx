@@ -1,6 +1,7 @@
 import LeftSide from "./components/LeftSide";
 import RightSide from "./components/RightSide";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <div className="bg-[#0f0f0f]  flex flex-col xl:flex-row w-full">
@@ -10,6 +11,7 @@ const App = () => {
       <div className="xl:max-w-[70%] w-full ">
         <RightSide />
       </div>
+      <ToastContainer />
     </div>
   );
 };
