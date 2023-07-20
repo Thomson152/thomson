@@ -83,14 +83,14 @@ const Portfolio = () => {
           </div> */}
 
           <div className="text-white mt-5 lg:text-2xl text-[18px] ">
-            <a href="" className="hover:border-b-2">
-              CozaStore Website
+            <a href="https://coza-frontend.vercel.app/" rel="noopener noreferrer" target="_blank"  className="hover:border-b-2">
+              CozaStore
             </a>
           </div>
         </div>
 
-        <div className="flex lg:flex-row space-y-16 lg:space-y-0 flex-col lg:space-x-4 mt-[3rem]">
-          <div className="relative">
+        <div className="flex lg:flex-row space-y-16 lg:space-y-0 flex-col lg:space-x-5 mt-[3rem]">
+          <div className="relative cursor-pointer">
             <img src={img2} alt="" className="aspect-[12/9] rounded " />
             {/* <div className="absolute flex space-x-2 top-[22rem] left-3 ">
               <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
@@ -102,15 +102,15 @@ const Portfolio = () => {
               </div>
             </div> */}
 
-            <div className="text-white mt-5 
+            <div className="text-white  mt-5 
             lg:text-2xl text-[18px] ">
-              <a href="" className="hover:border-b-2">
+              <a href="https://pavypay-landing-page.vercel.app"  rel="noopener noreferrer" target="_blank" className="hover:border-b-2">
                 Pavypay LandingPage
               </a>
             </div>
           </div>
 
-          <div className="relative ">
+          <div className="relative cursor-pointer">
             <img src={img3} alt="" className=" aspect-[12/9] rounded " />
 
             {/* <div className="absolute flex space-x-2 top-[15rem] left-3 ">
@@ -124,7 +124,7 @@ const Portfolio = () => {
             </div> */}
 
             <div className="text-white mt-5 lg:text-2xl text-[18px] ">
-              <a href="" className="hover:border-b-2">
+              <a href="https://prime-base.vercel.app" rel="noopener noreferrer" target="_blank"  className="hover:border-b-2">
                 PrimeBase
               </a>
             </div>

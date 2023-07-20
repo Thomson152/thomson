@@ -3,6 +3,7 @@ import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Skills from "./Skills";
+import Testimonial from "./Testimonial";
 // import Resume from "./Resume";
 
 const RightSide = () => {
@@ -14,6 +15,7 @@ const RightSide = () => {
       <Services/>
       <Skills/>
       <Portfolio/>
+      <Testimonial/>
     </div>
   );
 };
