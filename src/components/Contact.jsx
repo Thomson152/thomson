@@ -43,39 +43,39 @@ const Contact = () => {
 
       <form className="flex flex-col space-y-8" ref={form} onSubmit={sendEmail}>
         <div className="">
-          <p className="text-white">Full Name</p>
+          <p className="text-white text-xl">Full Name</p>
           <input
             type="text"
             name="name"
             required
             placeholder="Your Full Name"
             className="border-none outline-none bg-[#0f0f0f]
-             py-4 w-full text-white text-xl"
+             py-4 w-full text-white text-lg"
           />
         </div>
 
         <div className="">
-          <p className="text-white">Email</p>
+          <p className="text-white text-xl">Email</p>
           <input
-            type="text"
+           
             required
             name="email"
             placeholder="Your email address"
             className="border-none outline-none bg-[#0f0f0f] 
-             w-full  py-4 text-white text-xl"
+             w-full  py-4 text-white text-lg"
           />
         </div>
 
         <div className="">
-          <p className="text-white"> Message</p>
+          <p className="text-white text-xl"> Message</p>
           <textarea
-            type="text"
+         
             name="message"
             required
             rows="5"
             placeholder="Write your message here ..."
-            className="border-b resize-none outline-none w-full bg-[#0f0f0f]
-              py-4  text-white text-xl"
+            className="border-b resize-none border-[#646363]   outline-none w-full bg-[#0f0f0f]
+              py-4  text-white text-lg"
           />
         </div>
 

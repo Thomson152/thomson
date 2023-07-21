@@ -10,19 +10,19 @@ const About = () => {
 
       <div className="py-[5rem]">
         <h1 className="  text-[30px] xl:text-[58px] font-light max-w-[700px] lg:leading-[65px] leading-[40px] text-[#cecccc]  ">
-          Every great design begin with an even{" "}
-          <span className="text-green-500"> better story</span>{" "}
+           A Journey as a Passionate
+          <span className="text-green-500"> Web Developer</span>{" "}
         </h1>
 
-        <p className="text-[18px]  lg:max-w-3xl text-[#cecccc] text-left   text-lg mt-7 leading-8">
-          Since embarking on my freelance design journey almost 8 years ago, I
-          have had the privilege of working remotely for various agencies,
-          providing consultation services for startups, and collaborating with
-          exceptionally talented individuals to craft digital products that
-          cater to both business and consumer needs. With a quiet confidence and
-          insatiable curiosity, I continuously strive to enhance my skills,
-          tackling design challenges one at a time, always pushing myself to
-          deliver exceptional results.
+        <p className="text-[18px] tracking-wider  lg:max-w-3xl text-[#cecccc] text-left   text-lg mt-7 leading-9">
+          Hello, I'm Thomson, an enthusiastic web developer with a strong
+          dedication to crafting remarkable digital experiences. My journey in
+          web development began with an insatiable curiosity to learn and
+          create. Over the years, I've honed my skills in various front-end
+          technologies like HTML, CSS, and JavaScript, allowing me to design
+          visually stunning and user-friendly interfaces that engage visitors
+          and drive conversions. On the back-end, I specialize in using Node.js
+          and Express to build powerful web applications and APIs.
         </p>
       </div>
     </div>
