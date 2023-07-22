@@ -12,7 +12,7 @@ const Testimonial = () => {
       <div className="py-10">
         <h1 className="text-white lg:text-5xl text-4xl">
           Trusted by
-          <span className="text-green-500"> Hundered Clients</span>{" "}
+          <span className="text-green-500"> Hundred Clients</span>{" "}
         </h1>
       </div>
 

@@ -1,4 +1,4 @@
-import { LiaCommentSolid } from "react-icons/lia";
+import { AiOutlineContacts} from "react-icons/ai";
 import { useRef } from "react";
 import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <div className="py-10 xl:px-14 lg:px-36  px-5 pb-11 mt-16">
       <div className="flex items-center border w-[145px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
-        <LiaCommentSolid className="mr-2 text-white text-xl " />
+        <AiOutlineContacts className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">Contact</h2>
       </div>
 

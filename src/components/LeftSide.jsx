@@ -28,11 +28,11 @@ const LeftSide = () => {
           </h3>
 
           <h4 className="text-[18px] text-center font-medium  text-[#cecccc]  ">
-            Base in Lagos Yaba, Nigeria
+            Base in Yaba Lagos, Nigeria
           </h4>
 
           <p className="   mt-2  text-[16px] text-center text-[#b8b5b5] font-semibold ">
-            © 2022 Thomson. All Rights Reserved
+            © 2023 Thomson. All Rights Reserved
           </p>
         </div>
 

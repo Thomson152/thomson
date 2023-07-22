@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className="py-[2rem]">
         <p className="lg:text-lg text-[18px] xl:max-w-[40rem] lg:max-w-[36rem] max-w-[30rem] leading-7 tracking-wider text-[#cecccc] ">
-          I design and code beautifully simple things and i love what i do. Just
+          I design and code beautifully simple things and I love what I do. Just
           simple like that!
         </p>
       </div>
@@ -35,16 +35,16 @@ const Home = () => {
       <div className="py-[7rem] flex justify-start">
         <div className="flex justify-between w-[550px] ">
           <div className="">
-            <h1 className="text-green-400 text-3xl lg:text-6xl">10+</h1>
+            <h1 className="text-green-400 text-3xl lg:text-6xl">4+</h1>
             <p className="text-[14px] pt-7 text-[#cecccc]  max-w-[130px]">
               YEARS OF EXPERIENCE
             </p>
           </div>
 
           <div className="">
-            <h1 className="text-green-400 text-3xl lg:text-6xl">182+</h1>
+            <h1 className="text-green-400 text-3xl lg:text-6xl">50+</h1>
             <p className="text-[14px] pt-7 text-[#cecccc] max-w-[150px]">
-              PROJECTS COMPLETED ON 15 COUNTRIES
+              PROJECTS COMPLETED 
             </p>
           </div>
         </div>
