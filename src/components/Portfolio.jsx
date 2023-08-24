@@ -64,70 +64,48 @@ const Portfolio = () => {
             className="grayscale-0 lg:aspect-[12/6] aspect-[12/8] rounded "
           />
 
-          {/* <div className="absolute flex space-x-2 top-[22rem] left-3 ">
-            <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
-              <h2 className="text-black ">React Js</h2>
-            </div>
-
-            <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
-              <h2 className="text-black ">MongoDB</h2>
-            </div>
-
-            <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
-              <h2 className="text-black ">Express</h2>
-            </div>
-
-            <div className="bg-slate-100 w-[100px] h-[40px] lg:flex hidden justify-center items-center rounded-full">
-              <h2 className="text-black ">Tailwind CSS</h2>
-            </div>
-          </div> */}
-
-          <div className="text-white mt-5 lg:text-2xl text-[18px] ">
-            <a href="https://coza-frontend.vercel.app/" rel="noopener noreferrer" target="_blank"  className="hover:border-b-2">
+          <div className="text-white mt-3 lg:text-2xl text-[18px] ">
+            <a
+              href="https://coza-frontend.vercel.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="hover:border-b-2"
+            >
               CozaStore
             </a>
           </div>
         </div>
 
-        <div className="flex lg:flex-row space-y-16 lg:space-y-0 flex-col lg:space-x-5 mt-[3rem]">
-          <div className="relative cursor-pointer">
-            <img src={img2} alt="" className="aspect-[12/9] rounded " />
-            {/* <div className="absolute flex space-x-2 top-[22rem] left-3 ">
-              <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
-                <h2 className="text-black ">React Js</h2>
-              </div>
+        <div className="relative cursor-pointer mt-10">
+          <img src={img2} alt="" className="aspect-[12/6] rounded " />
 
-              <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
-                <h2 className="text-black ">Tailwind CSS</h2>
-              </div>
-            </div> */}
-
-            <div className="text-white  mt-5 
-            lg:text-2xl text-[18px] ">
-              <a href="https://pavypay-landing-page.vercel.app"  rel="noopener noreferrer" target="_blank" className="hover:border-b-2">
-                Pavypay LandingPage
-              </a>
-            </div>
+          <div
+            className="text-white  mt-3 
+            lg:text-2xl text-[18px] "
+          >
+            <a
+              href="https://pavypay-landing-page.vercel.app"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="hover:border-b-2"
+            >
+              Pavypay LandingPage
+            </a>
           </div>
+        </div>
 
-          <div className="relative cursor-pointer">
-            <img src={img3} alt="" className=" aspect-[12/9] rounded " />
+        <div className="relative cursor-pointer   mt-10">
+          <img src={img3} alt="" className=" aspect-[12/6] rounded " />
 
-            {/* <div className="absolute flex space-x-2 top-[15rem] left-3 ">
-              <div className="bg-slate-100  w-[100px] h-[40px] flex flex-wrap justify-center items-center rounded-full">
-                <h2 className="text-black ">React Js</h2>
-              </div>
-
-              <div className="bg-slate-100 w-[100px] h-[40px] flex justify-center items-center rounded-full">
-                <h2 className="text-black ">Tailwind CSS</h2>
-              </div>
-            </div> */}
-
-            <div className="text-white mt-5 lg:text-2xl text-[18px] ">
-              <a href="https://prime-base.vercel.app" rel="noopener noreferrer" target="_blank"  className="hover:border-b-2">
-                PrimeBase
-              </a>
-            </div>
+          <div className="text-white mt-3 lg:text-2xl text-[18px] ">
+            <a
+              href="https://prime-base.vercel.app"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="hover:border-b-2"
+            >
+              PrimeBase
+            </a>
           </div>
         </div>
       </div>

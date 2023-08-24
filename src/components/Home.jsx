@@ -1,6 +1,7 @@
 import { AiOutlineHome } from "react-icons/ai";
 import { TbMenu } from "react-icons/tb";
 import { motion } from "framer-motion";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
@@ -13,9 +14,13 @@ const Home = () => {
           <AiOutlineHome />
           <h6 className="text-[18px] ml-2">Introduce</h6>
         </div>
-        <div className="text-[#cecccc] border w-[50px] hidden  rounded-full xl:flex justify-center items-center h-[50px]">
-          <TbMenu className="text-3xl" />
+        <div className="text-[#cecccc] border w-[40px] hidden  rounded-full xl:flex justify-center items-center h-[40px]">
+          <TbMenu className="text-2xl" />
         </div>
+      </div>
+
+      <div className="hidden xl:block">
+        <Navbar/>
       </div>
 
       <div className="py-[5rem]">

@@ -37,17 +37,17 @@ const LeftSide = () => {
         </div>
 
         <div className="flex mt-3 justify-center space-x-4 ">
-          <div className="border-2 xl:w-[40px] text-[#b8b5b5]  hover:border-green-500 xl:h-[40px] h-[50px] w-[50px]   rounded-full flex justify-center items-center">
+          <a href="https://twitter.com/ThomsonOnyedika" rel="noopener noreferrer" target="_blank" className="border-2 xl:w-[40px] text-[#b8b5b5]  hover:border-green-500 xl:h-[40px] h-[50px] w-[50px]   rounded-full flex justify-center items-center">
             <AiOutlineTwitter className="text-xl hover:text-green-500" />
-          </div>
+          </a>
 
-          <div className="border-2 xl:w-[40px] w-[50px]  xl:h-[40px] hover:border-green-500 h-[50px] text-[#b8b5b5] rounded-full flex justify-center items-center">
+          <a rel="noopener noreferrer" href="https://www.instagram.com/i.am_thomson/" target="_blank" className="border-2 xl:w-[40px] w-[50px]  xl:h-[40px] hover:border-green-500 h-[50px] text-[#b8b5b5] rounded-full flex justify-center items-center">
             <AiOutlineInstagram className="text-xl hover:text-green-500" />
-          </div>
+          </a>
 
-          <div className="border-2 xl:h-[40px] xl:w-[40px] text-[#b8b5b5] h-[50px] w-[50px] hover:border-green-500    rounded-full flex justify-center items-center">
+          <a rel="noopener noreferrer" target="_blank" href="https://github.com/Thomson152" className="border-2 xl:h-[40px] xl:w-[40px] text-[#b8b5b5] h-[50px] w-[50px] hover:border-green-500    rounded-full flex justify-center items-center">
             <AiOutlineGithub className="text-xl hover:text-green-500" />
-          </div>
+          </a>
         </div>
 
         <button
