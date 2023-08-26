@@ -69,7 +69,7 @@ const Portfolio = () => {
               href="https://coza-frontend.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2 Inter text-[24px]"
+              className="hover:border-b-2 Inter text-[18px] lg:text-[24px]"
             >
               CozaStore
             </a>
@@ -87,7 +87,7 @@ const Portfolio = () => {
               href="https://pavypay-landing-page.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2 Inter text-[24px]"
+              className="hover:border-b-2 Inter text-[18px] lg:text-[24px]"
             >
               Pavypay LandingPage
             </a>
@@ -102,7 +102,7 @@ const Portfolio = () => {
               href="https://prime-base.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2 Inter text-[24px]"
+              className="hover:border-b-2 Inter text-[18px] lg:text-[24px]"
             >
               PrimeBase
             </a>

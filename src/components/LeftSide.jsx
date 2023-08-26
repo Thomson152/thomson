@@ -23,7 +23,7 @@ const LeftSide = () => {
         </div>
 
         <div className="mt-[2rem] ">
-          <h3 className="text-[24px] text-center Inter  text-white ">
+          <h3 className="text-[22px] text-center Inter  text-white ">
             tomsinonyedikachi@gmail
           </h3>
 
@@ -55,7 +55,7 @@ const LeftSide = () => {
          text-slate-900 text-[18px] bg-green-400 hover:bg-black hover:text-green-500 hover:border hover:border-green-500"
         >
           <a  href="https://wa.me/+2349159163256" rel="noopener noreferrer" target="_blank" className="flex justify-center space-x-11 items-center ">
-            <BsWhatsapp className="mr-3 text-xl" />
+            <BsWhatsapp className="mr-3 Inter font-semibold text-xl" />
             HIRE ME!
           </a>
         </button>

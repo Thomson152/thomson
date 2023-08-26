@@ -10,7 +10,7 @@ const Services = () => {
       </div>
 
       <div className="py-10">
-        <h1 className="text-white lg:text-5xl text-4xl">
+        <h1 className="text-white lg:text- Inter text-4xl">
           My <span className="text-green-500"> Specializations</span>{" "}
         </h1>
       </div>
