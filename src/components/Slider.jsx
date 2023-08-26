@@ -40,7 +40,7 @@ const Slider = () => {
                 CEO of <span className="text-green-500">IBM Global </span>{" "}
               </p>
             </div>
-            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
+            <p className="text-[#cecccc]  mt-5 lg:text-2xl Inter text-[20px] lg:leading-10 leading-9">
               "Thomson - A Developer with a creativity, professional and a
               master of code. Much more than i expect. High quality product &
               flexible price. Recommended!"
@@ -56,7 +56,7 @@ const Slider = () => {
                 CEO of <span className="text-green-500">IBM Global </span>{" "}
               </p>
             </div>
-            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
+            <p className="text-[#cecccc]  mt-5 lg:text-2xl Inter text-[20px] lg:leading-10 leading-9">
               "Thomson - A Developer with a creativity, professional and a
               master of code. Much more than i expect. High quality product &
               flexible price. Recommended!"
@@ -73,7 +73,7 @@ const Slider = () => {
               </p>
             </div>
 
-            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] lg:leading-10 leading-9">
+            <p className="text-[#cecccc]  mt-5 lg:text-2xl text-[20px] Inter lg:leading-10 leading-9">
               "Thomson - A Developer with a creativity, professional and a
               master of code. Much more than i expect. High quality product &
               flexible price. Recommended!"

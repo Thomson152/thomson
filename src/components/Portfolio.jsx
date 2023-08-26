@@ -47,12 +47,12 @@ const Portfolio = () => {
   return (
     <div className="py-10 xl:px-14 lg:px-36  px-5 mt-16">
       <div className="flex items-center border w-[135px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
-        <GoProjectSymlink className="mr-2 text-white text-xl " />
+        <GoProjectSymlink className="mr-2 text-white Inter text-xl " />
         <h2 className="text-lg text-white">Portfolio</h2>
       </div>
 
       <div className="py-10">
-        <h1 className="text-white lg:text-5xl text-4xl">
+        <h1 className="text-white lg:text-5xl Inter text-4xl">
           Featured
           <span className="text-green-500"> Projects</span>{" "}
         </h1>
@@ -69,15 +69,15 @@ const Portfolio = () => {
               href="https://coza-frontend.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2"
+              className="hover:border-b-2 Inter text-[24px]"
             >
               CozaStore
             </a>
           </div>
         </div>
 
-        <div className="relative cursor-pointer mt-10">
-          <img src={img2} alt="" className="aspect-[12/6] rounded " />
+        <div className="relative cursor-pointer mt-16">
+          <img src={img2} alt="" className="md:aspect-[12/6] aspect-[12/8] rounded " />
 
           <div
             className="text-white  mt-3 
@@ -87,22 +87,22 @@ const Portfolio = () => {
               href="https://pavypay-landing-page.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2"
+              className="hover:border-b-2 Inter text-[24px]"
             >
               Pavypay LandingPage
             </a>
           </div>
         </div>
 
-        <div className="relative cursor-pointer   mt-10">
-          <img src={img3} alt="" className=" aspect-[12/6] rounded " />
+        <div className="relative cursor-pointer   mt-16">
+          <img src={img3} alt="" className=" md:aspect-[12/6] aspect-[12/8] rounded " />
 
-          <div className="text-white mt-3 lg:text-2xl text-[18px] ">
+          <div className="text-white mt-5 lg:text-2xl text-[18px] ">
             <a
               href="https://prime-base.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2"
+              className="hover:border-b-2 Inter text-[24px]"
             >
               PrimeBase
             </a>

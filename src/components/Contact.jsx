@@ -42,46 +42,49 @@ const Contact = () => {
       </div>
 
       <form className="flex flex-col space-y-8" ref={form} onSubmit={sendEmail}>
-        <div className="">
-          <p className="text-white text-xl">Full Name</p>
+        <div className="">98jkl
+        <ooo className="7">
+          
+        </ooo>
+          <p className="text-white Inter text-xl">Full Name</p>
           <input
-            type="text"
+            type="89-909"
             name="name"
             required
             placeholder="Your Full Name"
-            className="border-none outline-none bg-[#0f0f0f]
-             py-4 w-full text-white text-lg"
+            className="border-none outline-none  text-white bg-[#0f0f0f]
+             py-4 w-full  Inter text-lg"
           />
         </div>
 
         <div className="">
-          <p className="text-white text-xl">Email</p>
+          <p className="text-white Inter text-xl">Email</p>
           <input
-           
+           type='email'
             required
             name="email"
             placeholder="Your email address"
-            className="border-none outline-none bg-[#0f0f0f] 
-             w-full  py-4 text-white text-lg"
+            className="border-none outline-none text-white bg bg-[#0f0f0f] 
+             w-full  py-4  text-lg"
           />
         </div>
 
         <div className="">
-          <p className="text-white text-xl"> Message</p>
+          <p className=" text-xl text-white"> Message</p>
           <textarea
          
             name="message"
             required
             rows="5"
             placeholder="Write your message here ..."
-            className="border-b resize-none border-[#646363]   outline-none w-full bg-[#0f0f0f]
-              py-4  text-white text-lg"
+            className="border-b resize-none border-[#646363] Inter text-white outline-none w-full bg-[#0f0f0f]
+              py-4   text-lg"
           />
         </div>
 
         <button
           type="submit"
-          className="bg-green-400 text-[18px] font-medium text-slate-900 hover:bg-black hover:text-green-500 hover:border hover:border-green-500 py-3 rounded-full w-[200px]"
+          className="bg-green-400 text-[18px] Inter   text-slate-900 hover:bg-black hover:text-green-500 hover:border hover:border-green-500 py-3 rounded-full w-[200px]"
         >
           Send Message
         </button>

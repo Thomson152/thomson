@@ -12,7 +12,7 @@ const LeftSide = () => {
     <div className="xl:fixed block bg-[#0f0f0f]  xl:max-w-[30%]  top-0 left-0 text-[#e9e7e7] lg:px-36 xl:px-5">
       <div className="border border-[#646363]  h-fit pb-16 px-7 py-5 rounded-lg">
         <div className="flex  justify-between items-center ">
-          <h1 className="xl:text-[30px] text-[28px] font-sans font-bold">Thomson</h1>
+          <h1 className="xl:text-[30px] text-[28px] Inter font-bold">Thomson</h1>
           <h3 className="text-[20px] font-semibold">
             Fullstack <br /> Developer
           </h3>
@@ -23,15 +23,15 @@ const LeftSide = () => {
         </div>
 
         <div className="mt-[2rem] ">
-          <h3 className="text-[20px] text-center font-medium  text-[#cecccc] ">
+          <h3 className="text-[24px] text-center Inter  text-white ">
             tomsinonyedikachi@gmail
           </h3>
 
-          <h4 className="text-[18px] text-center font-medium  text-[#cecccc]  ">
+          <h4 className="text-[18px] text-center Inter   text-white ">
             Base in Yaba Lagos, Nigeria
           </h4>
 
-          <p className="   mt-2  text-[16px] text-center text-[#b8b5b5] font-semibold ">
+          <p className="   mt-2  text-[14px] Inter text-center text-white  ">
             © 2023 Thomson. All Rights Reserved
           </p>
         </div>

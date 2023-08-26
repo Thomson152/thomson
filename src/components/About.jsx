@@ -9,12 +9,12 @@ const About = () => {
       </div>
 
       <div className="py-[5rem]">
-        <h1 className="  text-[30px] xl:text-[58px] font-light max-w-[700px] lg:leading-[65px] leading-[40px] text-[#cecccc]  ">
+        <h1 className="  text-[38px] xl:text-[48px] font-light Inter  lg:leading-[65px] leading-[47px] text-[#cecccc]  ">
            A Journey as a Passionate
           <span className="text-green-500"> Web Developer</span>{" "}
         </h1>
 
-        <p className="text-[18px] tracking-wider  lg:max-w-3xl text-[#cecccc] text-left   text-lg mt-7 leading-9">
+        <p className=" tracking-wider  lg:max-w-3xl text-[#cecccc] text-left Inter  text-[16px] mt-7 leading-9">
           Hello, I'm Thomson, an enthusiastic web developer with a strong
           dedication to crafting remarkable digital experiences. My journey in
           web development began with an insatiable curiosity to learn and
