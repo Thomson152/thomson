@@ -2,7 +2,7 @@ import { AiOutlineUser } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="py-5  lg:px-36 xl:px-14 px-5">
+    <div className="py-5  lg:px-36 xl:px-10 px-5">
       <div className="flex items-center border-[#646363]  border w-[120px] justify-center rounded-full h-[35px]">
         <AiOutlineUser className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">About</h2>

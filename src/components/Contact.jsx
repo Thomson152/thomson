@@ -28,7 +28,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="py-10 xl:px-14 lg:px-36  px-5 pb-11 mt-16">
+    <div className="py-10 xl:px-10 lg:px-36  px-5 pb-11 mt-16">
       <div className="flex items-center border w-[145px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
         <AiOutlineContacts className="mr-2 text-white text-xl " />
         <h2 className="text-lg text-white">Contact</h2>
@@ -42,16 +42,14 @@ const Contact = () => {
       </div>
 
       <form className="flex flex-col space-y-8" ref={form} onSubmit={sendEmail}>
-        <div className="">98jkl
-        <ooo className="7">
-          
-        </ooo>
+        <div className="">
+      
           <p className="text-white Inter text-xl">Full Name</p>
           <input
-            type="89-909"
+            type="text"
             name="name"
             required
-            placeholder="Your Full Name"
+            placeholder="Your full Name"
             className="border-none outline-none  text-white bg-[#0f0f0f]
              py-4 w-full  Inter text-lg"
           />
@@ -65,12 +63,12 @@ const Contact = () => {
             name="email"
             placeholder="Your email address"
             className="border-none outline-none text-white bg bg-[#0f0f0f] 
-             w-full  py-4  text-lg"
+             w-full  py-4 Inter text-lg"
           />
         </div>
 
         <div className="">
-          <p className=" text-xl text-white"> Message</p>
+          <p className=" text-xl Inter text-white"> Message</p>
           <textarea
          
             name="message"

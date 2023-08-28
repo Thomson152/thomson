@@ -23,15 +23,15 @@ const LeftSide = () => {
         </div>
 
         <div className="mt-[2rem] ">
-          <h3 className="text-[22px] text-center Inter  text-white ">
+          <h3 className="text-[22px] text-center Inter  text-[#cecccc] ">
             tomsinonyedikachi@gmail
           </h3>
 
-          <h4 className="text-[18px] text-center Inter   text-white ">
+          <h4 className="text-[18px] text-center Inter   text-[#cecccc] ">
             Base in Yaba Lagos, Nigeria
           </h4>
 
-          <p className="   mt-2  text-[14px] Inter text-center text-white  ">
+          <p className="   mt-2  text-[14px] Inter text-center text-[#cecccc]  ">
             © 2023 Thomson. All Rights Reserved
           </p>
         </div>

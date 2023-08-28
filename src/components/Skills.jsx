@@ -3,8 +3,9 @@ import { BiLogoMongodb, BiLogoNodejs, BiLogoReact, BiLogoTailwindCss } from "rea
 
 const Skills = () => {
   return (
-    <div className="py-10  xl:px-14 lg:px-36  px-5 mt-16">
-      <div className="flex items-center border w-[120px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
+    <div className="py-10  xl:pl-10 lg:px-36  px-5 mt-16">
+      <div className="flex items-center border w-[120px] border-[#646363] 
+      text-[#cecccc] justify-center rounded-full h-[35px]">
         <GiSkills className="mr-2 text-white text-xl " />
         <h2 className="text-lg Inter text-white">Skills</h2>
       </div>

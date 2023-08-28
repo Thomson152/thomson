@@ -45,7 +45,7 @@ import img3 from "../assets/primbase.png";
 
 const Portfolio = () => {
   return (
-    <div className="py-10 xl:px-14 lg:px-36  px-5 mt-16">
+    <div className="py-10 xl:px-10 lg:px-36  px-5 mt-16">
       <div className="flex items-center border w-[135px] border-[#646363] text-[#cecccc] justify-center rounded-full h-[35px]">
         <GoProjectSymlink className="mr-2 text-white Inter text-xl " />
         <h2 className="text-lg text-white">Portfolio</h2>
@@ -69,7 +69,7 @@ const Portfolio = () => {
               href="https://coza-frontend.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2 Inter text-[18px] lg:text-[24px]"
+              className="hover:border-b-2 Inter text-[18px] lg:text-[20px]"
             >
               CozaStore
             </a>
@@ -87,7 +87,7 @@ const Portfolio = () => {
               href="https://pavypay-landing-page.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2 Inter text-[18px] lg:text-[24px]"
+              className="hover:border-b-2 Inter text-[18px] lg:text-[20px]"
             >
               Pavypay LandingPage
             </a>
@@ -102,7 +102,7 @@ const Portfolio = () => {
               href="https://prime-base.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:border-b-2 Inter text-[18px] lg:text-[24px]"
+              className="hover:border-b-2 Inter text-[18px] lg:text-[20px]"
             >
               PrimeBase
             </a>
