@@ -14,12 +14,12 @@ const Home = () => {
           <AiOutlineHome />
           <h6 className="text-[18px] ml-2">Introduce</h6>
         </div>
-        <div className="text-[#cecccc] border w-[40px] hidden  rounded-full xl:flex justify-center items-center h-[40px]">
+        {/* <div className="text-[#cecccc] border w-[40px] hidden  rounded-full xl:flex justify-center items-center h-[40px]">
           <TbMenu
             className="text-2xl"
             onMenuClick={() => activeMenu(!isMenuActive)}
           />
-        </div>
+        </div> */}
       </div>
       <div className="absolute top-0 right-0">
       <Sidebar />
@@ -27,7 +27,7 @@ const Home = () => {
       
 
       <div className="hidden xl:block">
-        <Navbar />
+        {/* <Navbar /> */}
       </div>
 
       <div className="py-[5rem]">
