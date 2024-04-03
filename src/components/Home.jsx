@@ -47,7 +47,7 @@ const Home = () => {
       <div className="py-[7rem] flex justify-start">
         <div className="flex justify-between w-[550px] ">
           <div className="">
-            <h1 className="text-green-400 text-3xl lg:text-6xl">4+</h1>
+            <h1 className="text-green-400 text-3xl lg:text-6xl">2+</h1>
             <p className="text-[14px] pt-7 text-[#cecccc] Inter max-w-[130px]">
               YEARS OF EXPERIENCE
             </p>
